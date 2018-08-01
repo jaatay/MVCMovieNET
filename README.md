@@ -16,3 +16,16 @@ Once the program is built, the user will be taken to the landing page.
 
 ![Landing Page](./Landing.jpg)
 
+For this application, the only link that matters is the MVC Movie link in the upper left hand corner. The rest of the links are set to the defaults when the app was initialized. A user can clink on the link directly or navigate through the URL in the address bar:
+
+http://localhost:(yourlocalhost)/Movies
+
+Once the user navigates to the URL they are taken to the movie list. This list is generated via the DbContext seed data. By seeing this list it is validated that the user has created a local database for the project, and the seed file was successful.
+
+![List Page](./List.jpg)
+
+Once on the list page, the user can choose any of the CRUD options to create a new movie, view details on a particular movie, search and update various entries.
+
+##Licensing
+
+This project uses a MIT license.
