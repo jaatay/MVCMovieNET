@@ -13,3 +13,6 @@ Once the repo is cloned, the user will navigate and run the program from the pro
 Note: this will initialize the program and run the DbContext migrations that come in the files. This will in turn create a local database and seed it. Therefore, if for some reason a user does not have the ability to use an SQL database with Visual Studio, they will have to fix that before running this program or an exception will be thrown during build
 
 Once the program is built, the user will be taken to the landing page.
+
+![Landing Page](./Landing.jpg)
+
